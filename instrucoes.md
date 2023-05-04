@@ -11,4 +11,4 @@
 - ✅ [React] comunicação entre componentes (indireta)
 
 - ✅ [React] renderização condicional
-- [React] renderização de listas
+- ✅ [React] renderização de listas
