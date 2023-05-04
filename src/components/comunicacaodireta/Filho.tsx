@@ -1,4 +1,9 @@
-export default function Filho() {
+interface FilhoProps {
+  nome: string;
+  sobrenome: string;
+}
+
+export default function Filho({ nome, sobrenome }: FilhoProps) {
   return (
     <div
       className={`
@@ -6,7 +11,11 @@ export default function Filho() {
       bg-green-500 rounded-md p-5 border border-white
     `}
     >
-      <h1>Filho</h1>
+      <div className='flex justify-center gap-2 text-xl'>
+        <span className='font-black'>Filho</span>
+        <span>{nome}</span>
+        <span>{sobrenome}</span>
+      </div>
     </div>
   );
 }
