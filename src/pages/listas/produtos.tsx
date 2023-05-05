@@ -21,7 +21,7 @@ export default function PaginaProdutos() {
   return (
     <div
       className={`
-      flex flex-col gap-10 justify-center items-center h-screen
+      flex flex-col gap-10 justify-center items-center h-screen px-20
     `}
     >
       <Carrinho itens={itens} />

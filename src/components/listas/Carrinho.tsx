@@ -1,6 +1,5 @@
 import ItemCarrinho from "@/model/ItemCarrinho";
 import CarrinhoItem from "./CarrinhoItem";
-import { IconCircleX } from "@tabler/icons-react";
 import CarrinhoVazio from "./CarrinhoVazio";
 import Moeda from "@/utils/Moeda";
 
