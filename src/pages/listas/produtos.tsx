@@ -14,7 +14,7 @@ export default function PaginaProdutos() {
       produto,
     };
     const novoItem = { ...itemAtual, quantidade: itemAtual.quantidade + 1 };
-    const outrosItens = itens.filter((item) => item.produto.id);
+    const outrosItens = itens.filter((item) => item.produto.id !== produto.id);
     setItens([...outrosItens, novoItem]);
   }
 
