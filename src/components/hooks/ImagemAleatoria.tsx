@@ -19,7 +19,6 @@ export default function ImagemAleatoria() {
     `}
         onClick={() => {
           setPesquisa(valor);
-          console.log(urlImagem());
         }}
       >
         {valor}
